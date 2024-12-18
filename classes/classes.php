@@ -2,7 +2,7 @@
 
 class SuperHero
 {
-    public function __construct(public $name, public $power, public $planet){
+    public function __construct(private string $name, private int $power, private string $planet){
     }
 
     public function attack () {
@@ -21,6 +21,7 @@ class SuperHero
 $hero = new SuperHero("Batman",1,"Gotham");
 
 echo $hero->description();
+echo $hero->attack();
 
 
 ?>

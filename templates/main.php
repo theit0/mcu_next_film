@@ -14,6 +14,6 @@
     </section>
 
     <article>
-        <p>The next movie is <b><?= $following_production["title"] ?> </b> and premieres on <?= $following_production["release_date"] ?>.</p>
+        <p>The next movie is <b><?= $following_production ?></b>.</p>
     </article>
 </main>
